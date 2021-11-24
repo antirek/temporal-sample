@@ -1,4 +1,5 @@
 import { sendEmail } from './sendEmail';
 import { prepareGreeting } from './prepareGreeting';
-export { sendEmail, prepareGreeting, };
+import { getRegion } from './getRegion';
+export { sendEmail, prepareGreeting, getRegion, };
 //# sourceMappingURL=index.d.ts.map

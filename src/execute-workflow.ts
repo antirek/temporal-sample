@@ -16,7 +16,7 @@ async function run() {
   console.timeEnd('t2');
   // Invoke the `example` Workflow, only resolved when the workflow completes
   const result = await client.execute(example, {
-    args: ['Temporal'], // type inference works! args: [name: string]
+    args: ['sergey', '79135292926'], // type inference works! args: [name: string]
     taskQueue: 'tutorial',
     workflowId: 'my-business-id',
   });
